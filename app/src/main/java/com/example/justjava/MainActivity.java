@@ -42,9 +42,7 @@ public class MainActivity extends AppCompatActivity {
         return price;
     }
     private String createOrderSummary(int price){
-        String priceMessage="Name: S Pranav";
-        priceMessage += "\nQuantity: "+ quantity;
-        priceMessage += "\nTotal: $"+ (price);
+        String priceMessage = "Total: $"+ (price);
         priceMessage += "\nThank You!";
         return priceMessage;
     }
